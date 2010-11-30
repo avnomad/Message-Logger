@@ -1,0 +1,8 @@
+syntax: regexp
+Debug/*
+Release/*
+ipch/*
+syntax: glob
+Message Logger.opensdf
+Message Logger.sdf
+Message Logger.suo

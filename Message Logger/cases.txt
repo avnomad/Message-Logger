@@ -1,0 +1,693 @@
+	case WM_NULL:
+		cout << esquape(WM_NULL) << endl;
+		break;
+	case WM_CREATE:
+		cout << esquape(WM_CREATE) << endl;
+		break;
+	case WM_DESTROY:
+		cout << esquape(WM_DESTROY) << endl;
+		break;
+	case WM_MOVE:
+		cout << esquape(WM_MOVE) << endl;
+		break;
+	case WM_SIZE:
+		cout << esquape(WM_SIZE) << endl;
+		break;
+	case WM_ACTIVATE:
+		cout << esquape(WM_ACTIVATE) << endl;
+		break;
+	case WM_SETFOCUS:
+		cout << esquape(WM_SETFOCUS) << endl;
+		break;
+	case WM_KILLFOCUS:
+		cout << esquape(WM_KILLFOCUS) << endl;
+		break;
+	case WM_ENABLE:
+		cout << esquape(WM_ENABLE) << endl;
+		break;
+	case WM_SETREDRAW:
+		cout << esquape(WM_SETREDRAW) << endl;
+		break;
+	case WM_SETTEXT:
+		cout << esquape(WM_SETTEXT) << endl;
+		break;
+	case WM_GETTEXT:
+		cout << esquape(WM_GETTEXT) << endl;
+		break;
+	case WM_GETTEXTLENGTH:
+		cout << esquape(WM_GETTEXTLENGTH) << endl;
+		break;
+	case WM_PAINT:
+		cout << esquape(WM_PAINT) << endl;
+		break;
+	case WM_CLOSE:
+		cout << esquape(WM_CLOSE) << endl;
+		break;
+	case WM_QUERYENDSESSION:
+		cout << esquape(WM_QUERYENDSESSION) << endl;
+		break;
+	case WM_QUERYOPEN:
+		cout << esquape(WM_QUERYOPEN) << endl;
+		break;
+	case WM_ENDSESSION:
+		cout << esquape(WM_ENDSESSION) << endl;
+		break;
+	case WM_QUIT:
+		cout << esquape(WM_QUIT) << endl;
+		break;
+	case WM_ERASEBKGND:
+		cout << esquape(WM_ERASEBKGND) << endl;
+		break;
+	case WM_SYSCOLORCHANGE:
+		cout << esquape(WM_SYSCOLORCHANGE) << endl;
+		break;
+	case WM_SHOWWINDOW:
+		cout << esquape(WM_SHOWWINDOW) << endl;
+		break;
+	case WM_WININICHANGE:
+		cout << esquape(WM_WININICHANGE) << endl;
+		break;
+	case WM_SETTINGCHANGE:
+		cout << esquape(WM_SETTINGCHANGE) << endl;
+		break;
+	case WM_DEVMODECHANGE:
+		cout << esquape(WM_DEVMODECHANGE) << endl;
+		break;
+	case WM_ACTIVATEAPP:
+		cout << esquape(WM_ACTIVATEAPP) << endl;
+		break;
+	case WM_FONTCHANGE:
+		cout << esquape(WM_FONTCHANGE) << endl;
+		break;
+	case WM_TIMECHANGE:
+		cout << esquape(WM_TIMECHANGE) << endl;
+		break;
+	case WM_CANCELMODE:
+		cout << esquape(WM_CANCELMODE) << endl;
+		break;
+	case WM_SETCURSOR:
+		cout << esquape(WM_SETCURSOR) << endl;
+		break;
+	case WM_MOUSEACTIVATE:
+		cout << esquape(WM_MOUSEACTIVATE) << endl;
+		break;
+	case WM_CHILDACTIVATE:
+		cout << esquape(WM_CHILDACTIVATE) << endl;
+		break;
+	case WM_QUEUESYNC:
+		cout << esquape(WM_QUEUESYNC) << endl;
+		break;
+	case WM_GETMINMAXINFO:
+		cout << esquape(WM_GETMINMAXINFO) << endl;
+		break;
+	case WM_PAINTICON:
+		cout << esquape(WM_PAINTICON) << endl;
+		break;
+	case WM_ICONERASEBKGND:
+		cout << esquape(WM_ICONERASEBKGND) << endl;
+		break;
+	case WM_NEXTDLGCTL:
+		cout << esquape(WM_NEXTDLGCTL) << endl;
+		break;
+	case WM_SPOOLERSTATUS:
+		cout << esquape(WM_SPOOLERSTATUS) << endl;
+		break;
+	case WM_DRAWITEM:
+		cout << esquape(WM_DRAWITEM) << endl;
+		break;
+	case WM_MEASUREITEM:
+		cout << esquape(WM_MEASUREITEM) << endl;
+		break;
+	case WM_DELETEITEM:
+		cout << esquape(WM_DELETEITEM) << endl;
+		break;
+	case WM_VKEYTOITEM:
+		cout << esquape(WM_VKEYTOITEM) << endl;
+		break;
+	case WM_CHARTOITEM:
+		cout << esquape(WM_CHARTOITEM) << endl;
+		break;
+	case WM_SETFONT:
+		cout << esquape(WM_SETFONT) << endl;
+		break;
+	case WM_GETFONT:
+		cout << esquape(WM_GETFONT) << endl;
+		break;
+	case WM_SETHOTKEY:
+		cout << esquape(WM_SETHOTKEY) << endl;
+		break;
+	case WM_GETHOTKEY:
+		cout << esquape(WM_GETHOTKEY) << endl;
+		break;
+	case WM_QUERYDRAGICON:
+		cout << esquape(WM_QUERYDRAGICON) << endl;
+		break;
+	case WM_COMPAREITEM:
+		cout << esquape(WM_COMPAREITEM) << endl;
+		break;
+	case WM_GETOBJECT:
+		cout << esquape(WM_GETOBJECT) << endl;
+		break;
+	case WM_COMPACTING:
+		cout << esquape(WM_COMPACTING) << endl;
+		break;
+	case WM_COMMNOTIFY:
+		cout << esquape(WM_COMMNOTIFY) << endl;
+		break;
+	case WM_WINDOWPOSCHANGING:
+		cout << esquape(WM_WINDOWPOSCHANGING) << endl;
+		break;
+	case WM_WINDOWPOSCHANGED:
+		cout << esquape(WM_WINDOWPOSCHANGED) << endl;
+		break;
+	case WM_POWER:
+		cout << esquape(WM_POWER) << endl;
+		break;
+	case WM_COPYDATA:
+		cout << esquape(WM_COPYDATA) << endl;
+		break;
+	case WM_CANCELJOURNAL:
+		cout << esquape(WM_CANCELJOURNAL) << endl;
+		break;
+	case WM_NOTIFY:
+		cout << esquape(WM_NOTIFY) << endl;
+		break;
+	case WM_INPUTLANGCHANGEREQUEST:
+		cout << esquape(WM_INPUTLANGCHANGEREQUEST) << endl;
+		break;
+	case WM_INPUTLANGCHANGE:
+		cout << esquape(WM_INPUTLANGCHANGE) << endl;
+		break;
+	case WM_TCARD:
+		cout << esquape(WM_TCARD) << endl;
+		break;
+	case WM_HELP:
+		cout << esquape(WM_HELP) << endl;
+		break;
+	case WM_USERCHANGED:
+		cout << esquape(WM_USERCHANGED) << endl;
+		break;
+	case WM_NOTIFYFORMAT:
+		cout << esquape(WM_NOTIFYFORMAT) << endl;
+		break;
+	case WM_CONTEXTMENU:
+		cout << esquape(WM_CONTEXTMENU) << endl;
+		break;
+	case WM_STYLECHANGING:
+		cout << esquape(WM_STYLECHANGING) << endl;
+		break;
+	case WM_STYLECHANGED:
+		cout << esquape(WM_STYLECHANGED) << endl;
+		break;
+	case WM_DISPLAYCHANGE:
+		cout << esquape(WM_DISPLAYCHANGE) << endl;
+		break;
+	case WM_GETICON:
+		cout << esquape(WM_GETICON) << endl;
+		break;
+	case WM_SETICON:
+		cout << esquape(WM_SETICON) << endl;
+		break;
+	case WM_NCCREATE:
+		cout << esquape(WM_NCCREATE) << endl;
+		break;
+	case WM_NCDESTROY:
+		cout << esquape(WM_NCDESTROY) << endl;
+		break;
+	case WM_NCCALCSIZE:
+		cout << esquape(WM_NCCALCSIZE) << endl;
+		break;
+	case WM_NCHITTEST:
+		cout << esquape(WM_NCHITTEST) << endl;
+		break;
+	case WM_NCPAINT:
+		cout << esquape(WM_NCPAINT) << endl;
+		break;
+	case WM_NCACTIVATE:
+		cout << esquape(WM_NCACTIVATE) << endl;
+		break;
+	case WM_GETDLGCODE:
+		cout << esquape(WM_GETDLGCODE) << endl;
+		break;
+	case WM_SYNCPAINT:
+		cout << esquape(WM_SYNCPAINT) << endl;
+		break;
+	case WM_NCMOUSEMOVE:
+		cout << esquape(WM_NCMOUSEMOVE) << endl;
+		break;
+	case WM_NCLBUTTONDOWN:
+		cout << esquape(WM_NCLBUTTONDOWN) << endl;
+		break;
+	case WM_NCLBUTTONUP:
+		cout << esquape(WM_NCLBUTTONUP) << endl;
+		break;
+	case WM_NCLBUTTONDBLCLK:
+		cout << esquape(WM_NCLBUTTONDBLCLK) << endl;
+		break;
+	case WM_NCRBUTTONDOWN:
+		cout << esquape(WM_NCRBUTTONDOWN) << endl;
+		break;
+	case WM_NCRBUTTONUP:
+		cout << esquape(WM_NCRBUTTONUP) << endl;
+		break;
+	case WM_NCRBUTTONDBLCLK:
+		cout << esquape(WM_NCRBUTTONDBLCLK) << endl;
+		break;
+	case WM_NCMBUTTONDOWN:
+		cout << esquape(WM_NCMBUTTONDOWN) << endl;
+		break;
+	case WM_NCMBUTTONUP:
+		cout << esquape(WM_NCMBUTTONUP) << endl;
+		break;
+	case WM_NCMBUTTONDBLCLK:
+		cout << esquape(WM_NCMBUTTONDBLCLK) << endl;
+		break;
+	case WM_NCXBUTTONDOWN:
+		cout << esquape(WM_NCXBUTTONDOWN) << endl;
+		break;
+	case WM_NCXBUTTONUP:
+		cout << esquape(WM_NCXBUTTONUP) << endl;
+		break;
+	case WM_NCXBUTTONDBLCLK:
+		cout << esquape(WM_NCXBUTTONDBLCLK) << endl;
+		break;
+	case WM_INPUT_DEVICE_CHANGE:
+		cout << esquape(WM_INPUT_DEVICE_CHANGE) << endl;
+		break;
+	case WM_INPUT:
+		cout << esquape(WM_INPUT) << endl;
+		break;
+	case WM_KEYFIRST:
+		cout << esquape(WM_KEYFIRST) << endl;
+		break;
+	case WM_KEYDOWN:
+		cout << esquape(WM_KEYDOWN) << endl;
+		break;
+	case WM_KEYUP:
+		cout << esquape(WM_KEYUP) << endl;
+		break;
+	case WM_CHAR:
+		cout << esquape(WM_CHAR) << endl;
+		break;
+	case WM_DEADCHAR:
+		cout << esquape(WM_DEADCHAR) << endl;
+		break;
+	case WM_SYSKEYDOWN:
+		cout << esquape(WM_SYSKEYDOWN) << endl;
+		break;
+	case WM_SYSKEYUP:
+		cout << esquape(WM_SYSKEYUP) << endl;
+		break;
+	case WM_SYSCHAR:
+		cout << esquape(WM_SYSCHAR) << endl;
+		break;
+	case WM_SYSDEADCHAR:
+		cout << esquape(WM_SYSDEADCHAR) << endl;
+		break;
+	case WM_UNICHAR:
+		cout << esquape(WM_UNICHAR) << endl;
+		break;
+	case WM_KEYLAST:
+		cout << esquape(WM_KEYLAST) << endl;
+		break;
+	case WM_IME_STARTCOMPOSITION:
+		cout << esquape(WM_IME_STARTCOMPOSITION) << endl;
+		break;
+	case WM_IME_ENDCOMPOSITION:
+		cout << esquape(WM_IME_ENDCOMPOSITION) << endl;
+		break;
+	case WM_IME_COMPOSITION:
+		cout << esquape(WM_IME_COMPOSITION) << endl;
+		break;
+	case WM_IME_KEYLAST:
+		cout << esquape(WM_IME_KEYLAST) << endl;
+		break;
+	case WM_INITDIALOG:
+		cout << esquape(WM_INITDIALOG) << endl;
+		break;
+	case WM_COMMAND:
+		cout << esquape(WM_COMMAND) << endl;
+		break;
+	case WM_SYSCOMMAND:
+		cout << esquape(WM_SYSCOMMAND) << endl;
+		break;
+	case WM_TIMER:
+		cout << esquape(WM_TIMER) << endl;
+		break;
+	case WM_HSCROLL:
+		cout << esquape(WM_HSCROLL) << endl;
+		break;
+	case WM_VSCROLL:
+		cout << esquape(WM_VSCROLL) << endl;
+		break;
+	case WM_INITMENU:
+		cout << esquape(WM_INITMENU) << endl;
+		break;
+	case WM_INITMENUPOPUP:
+		cout << esquape(WM_INITMENUPOPUP) << endl;
+		break;
+	case WM_GESTURE:
+		cout << esquape(WM_GESTURE) << endl;
+		break;
+	case WM_GESTURENOTIFY:
+		cout << esquape(WM_GESTURENOTIFY) << endl;
+		break;
+	case WM_MENUSELECT:
+		cout << esquape(WM_MENUSELECT) << endl;
+		break;
+	case WM_MENUCHAR:
+		cout << esquape(WM_MENUCHAR) << endl;
+		break;
+	case WM_ENTERIDLE:
+		cout << esquape(WM_ENTERIDLE) << endl;
+		break;
+	case WM_MENURBUTTONUP:
+		cout << esquape(WM_MENURBUTTONUP) << endl;
+		break;
+	case WM_MENUDRAG:
+		cout << esquape(WM_MENUDRAG) << endl;
+		break;
+	case WM_MENUGETOBJECT:
+		cout << esquape(WM_MENUGETOBJECT) << endl;
+		break;
+	case WM_UNINITMENUPOPUP:
+		cout << esquape(WM_UNINITMENUPOPUP) << endl;
+		break;
+	case WM_MENUCOMMAND:
+		cout << esquape(WM_MENUCOMMAND) << endl;
+		break;
+	case WM_CHANGEUISTATE:
+		cout << esquape(WM_CHANGEUISTATE) << endl;
+		break;
+	case WM_UPDATEUISTATE:
+		cout << esquape(WM_UPDATEUISTATE) << endl;
+		break;
+	case WM_QUERYUISTATE:
+		cout << esquape(WM_QUERYUISTATE) << endl;
+		break;
+	case WM_CTLCOLORMSGBOX:
+		cout << esquape(WM_CTLCOLORMSGBOX) << endl;
+		break;
+	case WM_CTLCOLOREDIT:
+		cout << esquape(WM_CTLCOLOREDIT) << endl;
+		break;
+	case WM_CTLCOLORLISTBOX:
+		cout << esquape(WM_CTLCOLORLISTBOX) << endl;
+		break;
+	case WM_CTLCOLORBTN:
+		cout << esquape(WM_CTLCOLORBTN) << endl;
+		break;
+	case WM_CTLCOLORDLG:
+		cout << esquape(WM_CTLCOLORDLG) << endl;
+		break;
+	case WM_CTLCOLORSCROLLBAR:
+		cout << esquape(WM_CTLCOLORSCROLLBAR) << endl;
+		break;
+	case WM_CTLCOLORSTATIC:
+		cout << esquape(WM_CTLCOLORSTATIC) << endl;
+		break;
+	case WM_MOUSEFIRST:
+		cout << esquape(WM_MOUSEFIRST) << endl;
+		break;
+	case WM_MOUSEMOVE:
+		cout << esquape(WM_MOUSEMOVE) << endl;
+		break;
+	case WM_LBUTTONDOWN:
+		cout << esquape(WM_LBUTTONDOWN) << endl;
+		break;
+	case WM_LBUTTONUP:
+		cout << esquape(WM_LBUTTONUP) << endl;
+		break;
+	case WM_LBUTTONDBLCLK:
+		cout << esquape(WM_LBUTTONDBLCLK) << endl;
+		break;
+	case WM_RBUTTONDOWN:
+		cout << esquape(WM_RBUTTONDOWN) << endl;
+		break;
+	case WM_RBUTTONUP:
+		cout << esquape(WM_RBUTTONUP) << endl;
+		break;
+	case WM_RBUTTONDBLCLK:
+		cout << esquape(WM_RBUTTONDBLCLK) << endl;
+		break;
+	case WM_MBUTTONDOWN:
+		cout << esquape(WM_MBUTTONDOWN) << endl;
+		break;
+	case WM_MBUTTONUP:
+		cout << esquape(WM_MBUTTONUP) << endl;
+		break;
+	case WM_MBUTTONDBLCLK:
+		cout << esquape(WM_MBUTTONDBLCLK) << endl;
+		break;
+	case WM_MOUSEWHEEL:
+		cout << esquape(WM_MOUSEWHEEL) << endl;
+		break;
+	case WM_XBUTTONDOWN:
+		cout << esquape(WM_XBUTTONDOWN) << endl;
+		break;
+	case WM_XBUTTONUP:
+		cout << esquape(WM_XBUTTONUP) << endl;
+		break;
+	case WM_XBUTTONDBLCLK:
+		cout << esquape(WM_XBUTTONDBLCLK) << endl;
+		break;
+	case WM_MOUSEHWHEEL:
+		cout << esquape(WM_MOUSEHWHEEL) << endl;
+		break;
+	case WM_MOUSELAST:
+		cout << esquape(WM_MOUSELAST) << endl;
+		break;
+	case WM_PARENTNOTIFY:
+		cout << esquape(WM_PARENTNOTIFY) << endl;
+		break;
+	case WM_ENTERMENULOOP:
+		cout << esquape(WM_ENTERMENULOOP) << endl;
+		break;
+	case WM_EXITMENULOOP:
+		cout << esquape(WM_EXITMENULOOP) << endl;
+		break;
+	case WM_NEXTMENU:
+		cout << esquape(WM_NEXTMENU) << endl;
+		break;
+	case WM_SIZING:
+		cout << esquape(WM_SIZING) << endl;
+		break;
+	case WM_CAPTURECHANGED:
+		cout << esquape(WM_CAPTURECHANGED) << endl;
+		break;
+	case WM_MOVING:
+		cout << esquape(WM_MOVING) << endl;
+		break;
+	case WM_POWERBROADCAST:
+		cout << esquape(WM_POWERBROADCAST) << endl;
+		break;
+	case WM_MDICREATE:
+		cout << esquape(WM_MDICREATE) << endl;
+		break;
+	case WM_MDIDESTROY:
+		cout << esquape(WM_MDIDESTROY) << endl;
+		break;
+	case WM_MDIACTIVATE:
+		cout << esquape(WM_MDIACTIVATE) << endl;
+		break;
+	case WM_MDIRESTORE:
+		cout << esquape(WM_MDIRESTORE) << endl;
+		break;
+	case WM_MDINEXT:
+		cout << esquape(WM_MDINEXT) << endl;
+		break;
+	case WM_MDIMAXIMIZE:
+		cout << esquape(WM_MDIMAXIMIZE) << endl;
+		break;
+	case WM_MDITILE:
+		cout << esquape(WM_MDITILE) << endl;
+		break;
+	case WM_MDICASCADE:
+		cout << esquape(WM_MDICASCADE) << endl;
+		break;
+	case WM_MDIICONARRANGE:
+		cout << esquape(WM_MDIICONARRANGE) << endl;
+		break;
+	case WM_MDIGETACTIVE:
+		cout << esquape(WM_MDIGETACTIVE) << endl;
+		break;
+	case WM_MDISETMENU:
+		cout << esquape(WM_MDISETMENU) << endl;
+		break;
+	case WM_ENTERSIZEMOVE:
+		cout << esquape(WM_ENTERSIZEMOVE) << endl;
+		break;
+	case WM_EXITSIZEMOVE:
+		cout << esquape(WM_EXITSIZEMOVE) << endl;
+		break;
+	case WM_DROPFILES:
+		cout << esquape(WM_DROPFILES) << endl;
+		break;
+	case WM_MDIREFRESHMENU:
+		cout << esquape(WM_MDIREFRESHMENU) << endl;
+		break;
+	case WM_TOUCH:
+		cout << esquape(WM_TOUCH) << endl;
+		break;
+	case WM_IME_SETCONTEXT:
+		cout << esquape(WM_IME_SETCONTEXT) << endl;
+		break;
+	case WM_IME_NOTIFY:
+		cout << esquape(WM_IME_NOTIFY) << endl;
+		break;
+	case WM_IME_CONTROL:
+		cout << esquape(WM_IME_CONTROL) << endl;
+		break;
+	case WM_IME_COMPOSITIONFULL:
+		cout << esquape(WM_IME_COMPOSITIONFULL) << endl;
+		break;
+	case WM_IME_SELECT:
+		cout << esquape(WM_IME_SELECT) << endl;
+		break;
+	case WM_IME_CHAR:
+		cout << esquape(WM_IME_CHAR) << endl;
+		break;
+	case WM_IME_REQUEST:
+		cout << esquape(WM_IME_REQUEST) << endl;
+		break;
+	case WM_IME_KEYDOWN:
+		cout << esquape(WM_IME_KEYDOWN) << endl;
+		break;
+	case WM_IME_KEYUP:
+		cout << esquape(WM_IME_KEYUP) << endl;
+		break;
+	case WM_MOUSEHOVER:
+		cout << esquape(WM_MOUSEHOVER) << endl;
+		break;
+	case WM_MOUSELEAVE:
+		cout << esquape(WM_MOUSELEAVE) << endl;
+		break;
+	case WM_NCMOUSEHOVER:
+		cout << esquape(WM_NCMOUSEHOVER) << endl;
+		break;
+	case WM_NCMOUSELEAVE:
+		cout << esquape(WM_NCMOUSELEAVE) << endl;
+		break;
+	case WM_WTSSESSION_CHANGE:
+		cout << esquape(WM_WTSSESSION_CHANGE) << endl;
+		break;
+	case WM_TABLET_FIRST:
+		cout << esquape(WM_TABLET_FIRST) << endl;
+		break;
+	case WM_TABLET_LAST:
+		cout << esquape(WM_TABLET_LAST) << endl;
+		break;
+	case WM_CUT:
+		cout << esquape(WM_CUT) << endl;
+		break;
+	case WM_COPY:
+		cout << esquape(WM_COPY) << endl;
+		break;
+	case WM_PASTE:
+		cout << esquape(WM_PASTE) << endl;
+		break;
+	case WM_CLEAR:
+		cout << esquape(WM_CLEAR) << endl;
+		break;
+	case WM_UNDO:
+		cout << esquape(WM_UNDO) << endl;
+		break;
+	case WM_RENDERFORMAT:
+		cout << esquape(WM_RENDERFORMAT) << endl;
+		break;
+	case WM_RENDERALLFORMATS:
+		cout << esquape(WM_RENDERALLFORMATS) << endl;
+		break;
+	case WM_DESTROYCLIPBOARD:
+		cout << esquape(WM_DESTROYCLIPBOARD) << endl;
+		break;
+	case WM_DRAWCLIPBOARD:
+		cout << esquape(WM_DRAWCLIPBOARD) << endl;
+		break;
+	case WM_PAINTCLIPBOARD:
+		cout << esquape(WM_PAINTCLIPBOARD) << endl;
+		break;
+	case WM_VSCROLLCLIPBOARD:
+		cout << esquape(WM_VSCROLLCLIPBOARD) << endl;
+		break;
+	case WM_SIZECLIPBOARD:
+		cout << esquape(WM_SIZECLIPBOARD) << endl;
+		break;
+	case WM_ASKCBFORMATNAME:
+		cout << esquape(WM_ASKCBFORMATNAME) << endl;
+		break;
+	case WM_CHANGECBCHAIN:
+		cout << esquape(WM_CHANGECBCHAIN) << endl;
+		break;
+	case WM_HSCROLLCLIPBOARD:
+		cout << esquape(WM_HSCROLLCLIPBOARD) << endl;
+		break;
+	case WM_QUERYNEWPALETTE:
+		cout << esquape(WM_QUERYNEWPALETTE) << endl;
+		break;
+	case WM_PALETTEISCHANGING:
+		cout << esquape(WM_PALETTEISCHANGING) << endl;
+		break;
+	case WM_PALETTECHANGED:
+		cout << esquape(WM_PALETTECHANGED) << endl;
+		break;
+	case WM_HOTKEY:
+		cout << esquape(WM_HOTKEY) << endl;
+		break;
+	case WM_PRINT:
+		cout << esquape(WM_PRINT) << endl;
+		break;
+	case WM_PRINTCLIENT:
+		cout << esquape(WM_PRINTCLIENT) << endl;
+		break;
+	case WM_APPCOMMAND:
+		cout << esquape(WM_APPCOMMAND) << endl;
+		break;
+	case WM_THEMECHANGED:
+		cout << esquape(WM_THEMECHANGED) << endl;
+		break;
+	case WM_CLIPBOARDUPDATE:
+		cout << esquape(WM_CLIPBOARDUPDATE) << endl;
+		break;
+	case WM_DWMCOMPOSITIONCHANGED:
+		cout << esquape(WM_DWMCOMPOSITIONCHANGED) << endl;
+		break;
+	case WM_DWMNCRENDERINGCHANGED:
+		cout << esquape(WM_DWMNCRENDERINGCHANGED) << endl;
+		break;
+	case WM_DWMCOLORIZATIONCOLORCHANGED:
+		cout << esquape(WM_DWMCOLORIZATIONCOLORCHANGED) << endl;
+		break;
+	case WM_DWMWINDOWMAXIMIZEDCHANGE:
+		cout << esquape(WM_DWMWINDOWMAXIMIZEDCHANGE) << endl;
+		break;
+	case WM_DWMSENDICONICTHUMBNAIL:
+		cout << esquape(WM_DWMSENDICONICTHUMBNAIL) << endl;
+		break;
+	case WM_DWMSENDICONICLIVEPREVIEWBITMAP:
+		cout << esquape(WM_DWMSENDICONICLIVEPREVIEWBITMAP) << endl;
+		break;
+	case WM_GETTITLEBARINFOEX:
+		cout << esquape(WM_GETTITLEBARINFOEX) << endl;
+		break;
+	case WM_HANDHELDFIRST:
+		cout << esquape(WM_HANDHELDFIRST) << endl;
+		break;
+	case WM_HANDHELDLAST:
+		cout << esquape(WM_HANDHELDLAST) << endl;
+		break;
+	case WM_AFXFIRST:
+		cout << esquape(WM_AFXFIRST) << endl;
+		break;
+	case WM_AFXLAST:
+		cout << esquape(WM_AFXLAST) << endl;
+		break;
+	case WM_PENWINFIRST:
+		cout << esquape(WM_PENWINFIRST) << endl;
+		break;
+	case WM_PENWINLAST:
+		cout << esquape(WM_PENWINLAST) << endl;
+		break;
+	case WM_APP:
+		cout << esquape(WM_APP) << endl;
+		break;
