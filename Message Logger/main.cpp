@@ -13,6 +13,7 @@ using std::exit;
 #include <windows.h>
 
 #define escape(A) #A
+#define length(A) (sizeof(A)/sizeof((A)[0]))
 
 LRESULT CALLBACK logWindowProcedure(HWND window,UINT message,WPARAM argW,LPARAM argL);
 
@@ -37,6 +38,21 @@ int main()
 			CW_USEDEFAULT,CW_USEDEFAULT,100,100,NULL,NULL,GetModuleHandle(NULL),NULL);
 	ShowWindow(mainWindow,SW_SHOWNORMAL);
 	UpdateWindow(mainWindow);
+
+	UINT n = 0;
+	RAWINPUTDEVICE devices[2];
+	devices[0].usUsagePage = 1;
+	devices[0].usUsage = 6;
+	devices[0].dwFlags = RIDEV_DEVNOTIFY|RIDEV_INPUTSINK|RIDEV_NOLEGACY;
+	devices[0].hwndTarget = mainWindow;
+	devices[1].usUsagePage = 1;
+	devices[1].usUsage = 2;
+	devices[1].dwFlags = RIDEV_DEVNOTIFY|RIDEV_INPUTSINK;
+	devices[1].hwndTarget = mainWindow;
+	RegisterRawInputDevices(devices,length(devices),sizeof(devices[0]));
+	GetRegisteredRawInputDevices(devices,&n,sizeof(devices[0]));
+	cout << "n = " << n << endl;
+
 
 	MSG message;
 	while(GetMessage(&message,NULL,0,0))
@@ -515,6 +531,9 @@ LRESULT CALLBACK logWindowProcedure(HWND window,UINT message,WPARAM argW,LPARAM 
 		break;
 	case WM_POWERBROADCAST:
 		cout << escape(WM_POWERBROADCAST) << endl;
+		break;
+	case WM_DEVICECHANGE:
+		cout << escape(WM_DEVICECHANGE) << endl;
 		break;
 	case WM_MDICREATE:
 		cout << escape(WM_MDICREATE) << endl;

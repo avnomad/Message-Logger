@@ -159,6 +159,7 @@
 #define WM_CAPTURECHANGED               0x0215
 #define WM_MOVING                       0x0216
 #define WM_POWERBROADCAST               0x0218
+#define WM_DEVICECHANGE                 0x0219
 #define WM_MDICREATE                    0x0220
 #define WM_MDIDESTROY                   0x0221
 #define WM_MDIACTIVATE                  0x0222
