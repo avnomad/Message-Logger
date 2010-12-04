@@ -39,26 +39,29 @@ int main()
 	ShowWindow(mainWindow,SW_SHOWNORMAL);
 	UpdateWindow(mainWindow);
 
-	UINT n = 0;
-	RAWINPUTDEVICE devices[2];
-	devices[0].usUsagePage = 1;
-	devices[0].usUsage = 6;
-	devices[0].dwFlags = RIDEV_DEVNOTIFY|RIDEV_INPUTSINK|RIDEV_NOLEGACY;
-	devices[0].hwndTarget = mainWindow;
-	devices[1].usUsagePage = 1;
-	devices[1].usUsage = 2;
-	devices[1].dwFlags = RIDEV_DEVNOTIFY|RIDEV_INPUTSINK;
-	devices[1].hwndTarget = mainWindow;
-	RegisterRawInputDevices(devices,length(devices),sizeof(devices[0]));
-	GetRegisteredRawInputDevices(devices,&n,sizeof(devices[0]));
-	cout << "n = " << n << endl;
+	//UINT n = 0;
+	//RAWINPUTDEVICE devices[2];
+	//devices[0].usUsagePage = 1;
+	//devices[0].usUsage = 6;
+	//devices[0].dwFlags = RIDEV_DEVNOTIFY|RIDEV_INPUTSINK|RIDEV_NOLEGACY;
+	//devices[0].hwndTarget = mainWindow;
+	//devices[1].usUsagePage = 1;
+	//devices[1].usUsage = 2;
+	//devices[1].dwFlags = RIDEV_DEVNOTIFY|RIDEV_INPUTSINK;
+	//devices[1].hwndTarget = mainWindow;
+	//RegisterRawInputDevices(devices,length(devices),sizeof(devices[0]));
+	//GetRegisteredRawInputDevices(devices,&n,sizeof(devices[0]));
+	//cout << "n = " << n << endl;
 
 
 	MSG message;
 	while(GetMessage(&message,NULL,0,0))
 	{
+		cout << "loop in" << endl;
 		TranslateMessage(&message);
+		cout << "loop middle" << endl;
 		DispatchMessage(&message);
+		cout << "loop out" << endl;
 	} // end while
 
 	system("pause");
