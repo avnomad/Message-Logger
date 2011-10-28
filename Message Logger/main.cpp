@@ -39,6 +39,7 @@ int main()
 	ShowWindow(mainWindow,SW_SHOWNORMAL);
 	UpdateWindow(mainWindow);
 
+	RegisterTouchWindow(mainWindow,TWF_FINETOUCH|TWF_WANTPALM);
 	//UINT n = 0;
 	//RAWINPUTDEVICE devices[2];
 	//devices[0].usUsagePage = 1;
@@ -57,11 +58,11 @@ int main()
 	MSG message;
 	while(GetMessage(&message,NULL,0,0))
 	{
-		cout << "loop in" << endl;
+		//cout << "loop in" << endl;
 		TranslateMessage(&message);
-		cout << "loop middle" << endl;
+		//cout << "loop middle" << endl;
 		DispatchMessage(&message);
-		cout << "loop out" << endl;
+		//cout << "loop out" << endl;
 	} // end while
 
 	system("pause");
