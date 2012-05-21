@@ -64,8 +64,19 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="cases.txt" />
-    <None Include="message list.txt" />
+    <ClInclude Include="cases.h">
+      <FileType>Text</FileType>
+    </ClInclude>
+    <CustomBuild Include="message list.txt">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">awk --file=script.awk &lt; "message list.txt" &gt; cases.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Calling awk to transform "message list.txt" to cases.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cases.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">script.awk</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">awk --file=script.awk &lt; "message list.txt" &gt; cases.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Calling awk to transform "message list.txt" to cases.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cases.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">script.awk</AdditionalInputs>
+    </CustomBuild>
     <None Include="script.awk" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
